@@ -2,7 +2,7 @@
  * modbus_tcp.c
  *
  *  Created on: May 13, 2025
- *      Author: jayap
+ *      Author: jayaprakash
  */
 
 #include "main.h"
