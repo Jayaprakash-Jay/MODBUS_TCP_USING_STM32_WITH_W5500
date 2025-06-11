@@ -342,7 +342,7 @@ void writeSingleReg(uint8_t *request, uint16_t len)//fun code 6
 }
 void writemultipleRegs(uint8_t *request, uint16_t len)//fun code 16
 {
-	/*uint8_t unit_id = request[6];
+	uint8_t unit_id = request[6];
 	uint16_t start_address = (request[8] << 8) | request[9];
 	uint16_t quantity = (request[10] << 8) | request[11];
 	//uint8_t byte_count = request[12];
@@ -386,6 +386,6 @@ void writemultipleRegs(uint8_t *request, uint16_t len)//fun code 16
 	}
 	printf("\n\r");
 
-	send(0, response, 12);*/
+	send(0, response, 12);
 }
 
